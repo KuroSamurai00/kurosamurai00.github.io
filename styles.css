@@ -1,0 +1,31 @@
+.sidenav{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    background-color: brown;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: inline-block;
+    
+}
+.sidenav a{
+    padding: 10px;
+    color: white;
+    display: block;
+}
+body {
+    background-color: black;
+}
+.main{
+    
+   
+    margin-left: 190px;
+    
+}
+
+.block {
+    background-color: turquoise;
+    display: flex;
+    padding: 20px;
+}
+
