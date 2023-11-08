@@ -1,13 +1,13 @@
 import React from "react";
 
-export class Projects extends React.Component {
-    render() {
+export const Projects = () => {
+    
         return (
             <section className="projects">
-                <h1>View my other projects on GitHub</h1>
-                <p><a href="https://www.github.com/kurosamurai00">GitHub </a>    </p>
+                <h1>this is the projects section</h1>
+                <p>and I am so handsome and such a great husband</p>
             </section>
             
         )
-    }
+    
 }

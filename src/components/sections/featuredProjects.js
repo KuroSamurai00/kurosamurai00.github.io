@@ -1,7 +1,7 @@
 import React from "react";
 
-export class FeaturedProjects extends React.Component {
-    render() {
+export const FeaturedProjects = () => {
+    
         return (
             <section className="featured-projects">
                 <h1>this is the featured projects section</h1>
@@ -9,5 +9,5 @@ export class FeaturedProjects extends React.Component {
             </section>
             
         )
-    }
+    
 }
