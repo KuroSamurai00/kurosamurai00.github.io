@@ -1,3 +1,4 @@
+import React from "react";
 // import logo from './logo.svg';
 // import './App.css';
 import '../src/styles/style.css';
@@ -9,7 +10,7 @@ import { Opener } from './components/sections/Opener';
 import { Experience } from './components/sections/experience';
 import { Projects } from './components/sections/projects';
 import { FeaturedProjects } from './components/sections/featuredProjects';
-import { Contact } from './components/sections/Contact';
+import { Contact } from './components/sections/contact';
 import { Social } from './components/social';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <FeaturedProjects />
       <Projects />
       <Contact />
+     
     </div>
   );
 }
